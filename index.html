@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css.css" rel="stylesheet">
+    <script src="./rockPaperScissors.js" defer></script>
+</head>
+<body>
+<form id="playerForm">
+    <h1>STEN SAX PÅSE</h1>
+    <input id="nameRegister" type="text" placeholder="Name" >
+    <button id="registerPlayerBtn">Spela</button>
+</form>
+<section id="gameContainer">
+    <h1 id="result"></h1>
+    <div id="choiceDisplay">
+        <h1 id="playerChoice"></h1>
+        <div class="space"></div>
+        <h1 id="cpuChoice"></h1>
+    </div>
+    <div id="scoreBoard">
+        <h3 id="playerName"></h3>
+        <h3 id="playerScoreH3" class="score"></h3>
+        <h3 id="cpuScore">CPU</h3>
+        <h3 id="cpuScoreH3" class="score"></h3>
+    </div>
+    <div id="weaponSelection">
+        <button id="rock" value="0">ROCK</button>
+        <button id="paper" value="1">PAPER</button>
+        <button id="scissors" value="2">SCISSORS</button>
+    </div>
+</section>
+</body>
+</html>
