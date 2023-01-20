@@ -71,7 +71,7 @@ const restartGame = (string) => {
     aNo.innerText = 'NEJ';
     aNo.setAttribute('class', 'no');
 
-    aNo.href = 'https://youtu.be/wDYNVH0U3cs?t=3';
+    aNo.href = 'https://youtu.be/wDYNVH0U3cs?t=3&autoplay=1';
     const aYes = document.createElement('a');
     aYes.setAttribute('class', 'yes');
     aYes.innerText = 'JA';
