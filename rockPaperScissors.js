@@ -71,7 +71,7 @@ const restartGame = (string) => {
     aNo.innerText = 'NEJ';
     aNo.setAttribute('class', 'no');
 
-    aNo.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley';
+    aNo.href = 'https://youtu.be/wDYNVH0U3cs?t=3';
     const aYes = document.createElement('a');
     aYes.setAttribute('class', 'yes');
     aYes.innerText = 'JA';
